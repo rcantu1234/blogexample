@@ -2,14 +2,22 @@
 <head>
   <link href="/normalize.css" rel="stylesheet">
   <style>
+
+    body {
+     background: #82CAFF;
+    }
+    p {
+      font-size: 20px;
+
+    }
     header {
       text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background: url('http://img.wallpaperfolder.com/f/5842E70006C3/south       -padre-island-beach-1600-1067.jpg');
       background-size: cover;
-      color: white;
+      color: #2B65EC;
     }
     a {
-      color: white;
+      color: #2B65EC;
     }
     h1 {
       font-size: 70px;
@@ -17,13 +25,12 @@
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
-      border-radius: 20px;
+      border-radius: 50px ;
+      width: 150px;
     }
     ul {
       padding: 10px;
-      /*background: #f00;*/
-      background-color: rgba(0, 0, 0, 0.5);
-
+      background: #000080;
     }
     li {
       display: inline;
@@ -35,49 +42,49 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-     h1 {
-      font-size: 36px;
-     }
-     li {
-       display: block;
-       padding: 5px;
-     }
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="/assets/jeff.png">
-    <h1>Jeff's Blog</h1>
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkp8bvcz1FPgmhdXXADCiCAzZyAsz6GK7ImPIH30AkUkPX1VYgpQ">
+    <h1>Roel's Blog</h1>
     <ul>
       <li><a href="#">About Me</a></li>
-      <li><a href="#">Best Poems</a></li>
-      <li><a href="#">Worst Poems</a></li>
+      <li><a href="#">My Hobbies</a></li>
+      <li><a href="#">Vacations</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </header>
   <article>
-  <h2>VHS umami pop-up trust fund</h2>
-  <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-  <button>Like</button>
+    <h2>My Hobbies</h2>
+    <p>Lorem ipsum dolor sit amet, interesset reprehendunt cum an. Sint       meliore ea his, nam lorem fuisset at. Has nisl porro et, harum             vituperatoribus pro ei. Sit ei aeterno commune. Eos no natum mazim         voluptatibus, doming prompta mediocritatem ut pri.</p>
+    <button>Like</button>
   </article>
-
   <article>
-  <h2>Sartorial synth Echo Park, roof party</h2>
-  <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-  <button>Like</button>
+    <h2>Vacations</h2>
+    <p>
+    Meis delenit est id. Consul commodo hendrerit usu ex, eum errem altera     suscipit in. Ad tota facete posidonium ius. Mel blandit signiferumque      cu, ut numquam dissentias voluptatibus vel. Ne est delenit fabellas        praesent, nibh aperiam definitionem at ius, vel tempor equidem insolens     ea.</p>
+    <button id='button'>Like</button>
   </article>
-
   <article>
-  <h2>Forage food truck keytar master cleanse</h2>
-  <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-  <button>Like</button>
+    <h2>My Dreams & Priorities</h2>
+    <p>Pri ad ridens vituperata cotidieque. Et timeam repudiare gubergren        vim, eu dico theophrastus cum. Ludus maiorum menandri pro ex. Ea vim       vitae everti tacimates. Cu eos sonet mediocritatem, te volutpat            pertinacia disputationi mea. Ut eros quando consul mea, sea eu             ocurreret liberavisse signiferumque. Ei liber ubique omnium sed, mel       an prima oratio recteque.</p>
+    <button>Like</button>
   </article>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script>
     $("button").on("click", function() {
-      alert("clicked!");
+      alert("Hello World!");
     });
   </script>
-
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
 </body>
